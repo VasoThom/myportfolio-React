@@ -8,14 +8,14 @@ export default function Social() {
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-github"></i>
+        <i className="uil uil-github"></i>
       </a>
       <a
         href="https://www.linkedin.com/in/vaso-thomopoulou-6820a21b9/"
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-linkedin"></i>
+        <i className="uil uil-linkedin"></i>
       </a>
       <a
         href="https://www.xing.com/profile/Vasiliki_Thomopoulou2/cv"

@@ -9,10 +9,10 @@ export default function Home() {
       <div className="home__container container grid">
         <div className="home__content grid">
           <Social />
-
           <div className="home__img">
-            <Data />
+            {/* <img src={require("../../assets/IMG.png")} /> */}
           </div>
+          <Data />
         </div>
       </div>
     </section>
