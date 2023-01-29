@@ -55,8 +55,9 @@ img {
 
 .section__subtitle {
   display: block;
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   margin-bottom: 4rem;
+  color: rgb(0, 0, 0, 0.7);
 }
 
 .section__title,
@@ -106,6 +107,11 @@ img {
   .button__icon {
     width: 25px;
     height: 25px;
+  }
+  .section__subtitle {
+    padding: 2rem 0 4rem;
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 768px) {
