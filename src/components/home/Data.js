@@ -56,7 +56,7 @@ export default function Data() {
       <a href="#contact" className="button button--flex">
         Kontakt &nbsp;
         <span>
-          <i className="uil uil-envelope-star"></i>
+          <i className="uil uil-envelope-star button__icon "></i>
         </span>
       </a>
     </div>
