@@ -1,0 +1,104 @@
+.projects__container {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+.projects__content {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6rem 0 2rem 2.5rem;
+  border-radius: 1rem;
+  background-color: rgb(225, 224, 224);
+}
+.projects__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.projects__button {
+  cursor: pointer;
+  font-size: 15px;
+  display: inline-flex;
+  column-gap: 0.3rem;
+  align-items: center;
+  color: rgb(93, 84, 84);
+}
+.projects__modal {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: 99;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 0;
+  visibility: hidden;
+}
+.projects__modal-content {
+  width: 500px;
+  position: relative;
+  background-color: rgb(225, 224, 224);
+  padding: 4.5rem 2.5rem 2.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.projects__modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+.projects__modal-title,
+.projects__modal-description {
+  text-align: center;
+}
+
+.projects__modal-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.projects__modal-description {
+  font-size: 15px;
+  padding: 0 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 992px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects__content {
+    padding: 3rem 0 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects__modal-content {
+    padding: 4.5rem 1.5rem 2.5rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
+}

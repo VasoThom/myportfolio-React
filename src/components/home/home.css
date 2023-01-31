@@ -123,6 +123,11 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .home__content {
+    padding-top: 1rem;
+  }
+}
 @media screen and (max-width: 380px) {
   .home__img {
     width: 170px;
@@ -131,10 +136,5 @@
   .home__hand {
     width: 20px;
     height: 20px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .home__content {
-    padding-top: 1rem;
   }
 }

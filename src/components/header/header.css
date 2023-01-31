@@ -50,6 +50,10 @@
 .nav__link:hover {
   color: rgb(17, 14, 14);
 }
+.nav__link:hover {
+  color: blue;
+  font-size: 1.5rem;
+}
 
 @media screen and (max-width: 768px) {
   .header {
