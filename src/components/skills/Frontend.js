@@ -9,22 +9,18 @@ const Frontend = () => {
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
             <div className="skills__name">HTML5</div>
-            <div className="skills__level"></div>
           </div>
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
             <div className="skills__name">CSS3</div>
-            <div className="skills__level"></div>
           </div>
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
             <div className="skills__name">JavaScript</div>
-            <div className="skills__level"></div>
           </div>
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
             <div className="skills__name">Node.js</div>
-            <div className="skills__level"></div>
           </div>
         </div>
       </div>
@@ -35,17 +31,14 @@ const Frontend = () => {
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
             <div className="skills__name">React</div>
-            <div className="skills__level"></div>
           </div>
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
             <div className="skills__name">React Native</div>
-            <div className="skills__level"></div>
           </div>
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
             <div className="skills__name">JQuery</div>
-            <div className="skills__level"></div>
           </div>
         </div>
       </div>

@@ -43,3 +43,28 @@
   font-weight: 500;
   line-height: 18px;
 }
+
+@media screen and (max-width: 992px) {
+  .skills__container {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+  .skills__content {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .skills__box {
+    column-gap: 1.2rem;
+  }
+  .skills__name {
+    font-size: 15px;
+  }
+}
