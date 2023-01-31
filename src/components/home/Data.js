@@ -49,9 +49,12 @@ export default function Data() {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        Ich bin Fullstack Web Developer aus Düsseldorf und bin sehr
-        leidenschaftlich bei meiner arbeit!! ............... .......{" "}
-        <b>[five more information] </b>
+        Ich bin Fullstack Web Developer ( Frontend und Backend Development) aus
+        Düsseldorf und bin sehr leidenschaftlich bei meiner arbeit!! ich habe
+        bereits einige Grundkenntnisse in den gängigen Tools und
+        Programmiersprachen und kann mich on die direkte Anwendung und den
+        Austausch mit anderen begeben. Kommunikation gehört zu meinen Stärken
+        und habe positives Feedback erhalten
       </p>
       <a href="#contact" className="button button--flex">
         Kontakt &nbsp;
