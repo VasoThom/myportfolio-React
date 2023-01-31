@@ -124,6 +124,7 @@ img {
   .section__subtitle {
     padding: 2rem 0 4rem;
     color: rgb(0, 0, 0, 0.7);
+
     font-size: 18px;
   }
 }

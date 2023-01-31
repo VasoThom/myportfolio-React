@@ -8,21 +8,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_40kig87",
-        "template_kwnn586",
-        form.current,
-        "7u7Ct-R7BXCC0GJ4B"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_40kig87",
+      "template_kwnn586",
+      form.current,
+      "7u7Ct-R7BXCC0GJ4B"
+    );
+    e.target.reset();
   };
 
   return (
@@ -51,7 +43,7 @@ const Contact = () => {
               <span className="contact__card-data">whatsapp Nachricht</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=01727583062&text=Hallo,"
+                href="https://api.whatsapp.com/send?phone=+491727583062&text=Hallo,"
                 className="contact__button"
               >
                 Send

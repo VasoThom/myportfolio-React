@@ -1,4 +1,5 @@
 import React from "react";
+import Xing from "../../assets/xing-122.svg";
 
 export default function Social() {
   return (
@@ -22,7 +23,7 @@ export default function Social() {
         className="home__social-icon"
         target="_blank"
       >
-        xing
+        <img className="xing__logo" src={Xing} alt="" />
       </a>
     </div>
   );

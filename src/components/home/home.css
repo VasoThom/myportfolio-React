@@ -1,3 +1,12 @@
+.xing__logo {
+  width: 15px;
+  height: 14px;
+}
+
+.xing__logo:hover {
+  background-color: white;
+}
+
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
   padding-top: 5.5rem;
@@ -49,6 +58,7 @@
 .home__title {
   font-size: 2.8rem;
   margin-bottom: 0.3rem;
+  font-family: "Work Sans", sans-serif;
 }
 .home__hand {
   width: 38px;

@@ -54,7 +54,6 @@
 @media screen and (max-width: 768px) {
   .header {
     top: initial;
-
     bottom: 0;
   }
   .nav {
@@ -79,6 +78,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+  }
+  .nav__link {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+  .nav__link:hover {
+    background-color: rgb(207, 204, 200);
+    border-radius: 0.7rem;
   }
   .nav__icon {
     font-size: 1.2rem;
