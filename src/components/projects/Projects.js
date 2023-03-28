@@ -83,7 +83,7 @@ const Projects = () => {
               <h3 className="projects__modal-title">Wetter App</h3>
               <div className="projects__modal-description">
                 <a href="https://myproject-three-pied.vercel.app/">Live Demo</a>
-                <a href=""> Code</a>
+                <a href="https://github.com/VasoThom/Project"> Code</a>
               </div>
             </div>
           </div>

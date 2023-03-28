@@ -20,7 +20,7 @@ const Frontend = () => {
           </div>
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
-            <div className="skills__name">Node.js</div>
+            <div className="skills__name">SCSS</div>
           </div>
         </div>
       </div>
@@ -30,16 +30,16 @@ const Frontend = () => {
         <div className="skills__group">
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
-            <div className="skills__name">React</div>
+            <div className="skills__name">React.js</div>
+          </div>
+          {/* <div className="skills__data">
+            <i class="uil uil-check-square"></i>
+            <div className="skills__name">React </div>
           </div>
           <div className="skills__data">
             <i class="uil uil-check-square"></i>
-            <div className="skills__name">React Native</div>
-          </div>
-          <div className="skills__data">
-            <i class="uil uil-check-square"></i>
-            <div className="skills__name">JQuery</div>
-          </div>
+            <div className="skills__name"></div>
+          </div> */}
         </div>
       </div>
     </div>
