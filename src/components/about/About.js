@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import LebensLauf from "../../assets/vasothomopouloucv.pdf";
+import LebensLauf from "../../assets/cvthomopoulou.pdf";
 import Info from "./Info.js";
 
 const About = () => {
